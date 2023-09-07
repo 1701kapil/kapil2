@@ -1,0 +1,910 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    /* position: absolute; */
+    display: flex;
+
+}
+
+.navbar .left {
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+
+}
+
+.navbar .left h1 {
+    /* margin-top: 5%; */
+    /* margin-left: 40%; */
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+
+}
+
+.navbar .mid {
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(21, 209, 96); */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .mid a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.navbar .mid :hover {
+    color: rgb(233, 192, 10);
+}
+
+
+.navbar .right {
+    width: 10%;
+    height: 100%;
+    /* background-color: rgb(153, 182, 78); */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: auto;
+
+}
+
+.navbar .right a {
+
+    /* background-color: rgb(153, 182, 78); */
+    color: black;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+.main {
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(194, 164, 89); */
+    position: absolute;
+    /* margin-top: 5%; */
+    display: flex;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.main .container {
+    width: 40%;
+    height: 40%;
+    /* background-color: bisque; */
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 45%;
+}
+
+.main h1 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    margin-left: 8%;
+}
+
+.main h3 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 15%;
+    color: rgb(43, 42, 42);
+}
+
+.main h4 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1%;
+    margin-left: 25%;
+    color: rgb(43, 42, 42);
+}
+
+.main button {
+    width: 20%;
+    height: 20%;
+    background-color: coral;
+    margin-top: 20px;
+    margin-left: 250px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: blueviolet;
+    background-color: white;
+}
+
+.main-2 {
+    width: 100%;
+    height: 34%;
+    /* background-color: blue; */
+    position: absolute;
+    margin-top: 29%;
+    display: flex;
+}
+
+.main-2 .card-1 {
+    width: 33.3%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-2 .card-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-2 .card-1 h2 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+.main-2 .card-1 .button-2 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+
+}
+
+
+.main-2 .card-2 {
+    width: 33.3%;
+    height: 100%;
+    /* background-color: rgb(84, 238, 151); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-2 .card-3 {
+    width: 33.3%;
+    height: 100%;
+    /* background-color: rgb(170, 174, 41); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-2 .card-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-2 .card-2 h2 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+.main-2 .card-2 .button-3 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+
+}
+
+
+.main-2 .card-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-2 .card-3 h2 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+.main-2 .card-3 .button-1 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+
+}
+
+
+.main-3 {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(246, 79, 113); */
+    position: absolute;
+    margin-top: 45.7%;
+    
+}
+
+.main-3 h1 {
+    margin-top: 1.5%;
+    /* position: absolute; */
+    margin-left: 40%;
+
+}
+
+.main-3 .section {
+    width: 60%;
+    height: 80%;
+    /* background-color: cornsilk; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.main-3 .section .part-1 {
+    width: 100%;
+    height: 48%;
+    /* background-color: rgb(255, 231, 136); */
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.main-3 .section .part-1 .card-1{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-1 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-top img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-1 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-1 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+    
+}
+.card-1 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+
+.main-3 .section .part-1 .card-2{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-2 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-2 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-2 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-2 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+.main-3 .section .part-1 .card-3{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-3 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-3 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-3 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-3 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.main-3 .section .part-1 .card-4{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-4 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-4 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-4 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-4 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+
+.main-3 .section .part-2 {
+    width: 100%;
+    height: 48%;
+    /* background-color: rgb(172, 171, 247); */
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-3 .section .part-2 .card-5{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-5 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-5 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-5 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-5 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+.main-3 .section .part-2 .card-6{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-6 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-6 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-6 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-6 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+
+.main-3 .section .part-2 .card-7{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-7 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-7 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-7 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-7 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+
+
+.main-3 .section .part-2 .card-8{
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(154, 243, 244); */
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.card-8 .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+}
+
+.card-8 .card-bottom {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(153, 125, 89); */
+}
+.card-8 .card-bottom h1{
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+.card-8 .card-bottom h2{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.main-4{
+    width: 100%;
+    height: 35%;
+    /* background-color: blueviolet; */
+    margin-top: 93%;
+    position: absolute;
+    display: flex;
+}
+.main-4 .card-1{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(77, 170, 228);
+}
+
+.main-4 .card-1 a{
+    
+    text-decoration: none;
+    display: flex;
+   margin-top: 18%;
+   margin-left: 33%;
+    color: white;
+    font-size: 100px;
+}
+.main-4 .card-1 h1{
+    font-size: 30px;
+   margin-top: 2%;
+   margin-left: 25%;
+   color: rgb(45, 45, 45);
+}
+.main-4 .card-1 p{
+    font-size: 15px;
+   margin-top: 2%;
+   margin-left: 18%;
+   color: rgb(45, 45, 45);
+}
+
+
+
+
+.main-4 .card-2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(232, 78, 73);
+}
+.main-4 .card-2 a{
+    
+    text-decoration: none;
+    display: flex;
+   margin-top: 18%;
+   margin-left: 33%;
+    color: white;
+    font-size: 100px;
+}
+.main-4 .card-2 h1{
+    font-size: 25px;
+   margin-top: 2%;
+   margin-left: 23%;
+   color: rgb(45, 45, 45);
+}
+.main-4 .card-2 p{
+    font-size: 15px;
+   margin-top: 2%;
+   margin-left: 18%;
+   color: rgb(45, 45, 45);
+}
+
+.main-4 .card-3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(77, 170, 228);
+}
+.main-4 .card-3 a{
+    
+    text-decoration: none;
+    display: flex;
+   margin-top: 18%;
+   margin-left: 33%;
+    color: white;
+    font-size: 100px;
+}
+.main-4 .card-3 h1{
+    font-size: 25px;
+   margin-top: 2%;
+   margin-left: 27%;
+   color: rgb(45, 45, 45);
+}
+.main-4 .card-3 p{
+    font-size: 15px;
+   margin-top: 2%;
+   margin-left: 18%;
+   color: rgb(45, 45, 45);
+}
+
+.main-4 .card-4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(232, 78, 73);
+}
+.main-4 .card-4 a{
+    
+    text-decoration: none;
+    display: flex;
+   margin-top: 18%;
+   margin-left: 33%;
+    color: white;
+    font-size: 100px;
+}
+.main-4 .card-4 h1{
+    font-size: 25px;
+   margin-top: 2%;
+   margin-left: 18%;
+   color: rgb(45, 45, 45);
+}
+.main-4 .card-4 p{
+    font-size: 14px;
+   margin-top: 2%;
+   margin-left: 13%;
+   color: rgb(45, 45, 45);
+}
+
+
+
+.main-5{
+    width: 100%;
+    height: 70%;
+    /* background-color: chocolate; */
+    margin-top: 110%;
+    position: absolute;
+    
+}
+.main-5 h2{
+    margin-top: 2%;
+    margin-left: 43%;
+}
+.main-5 .container{
+  width: 70%;
+  height: 80%;
+  /* background-color: cadetblue; */
+  margin: auto;
+  margin-top: 1.5%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.main-5 .card-1{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(160, 152, 95); */
+   
+  }
+  .main-5 .card-1 .top{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(248, 241, 192); */
+   
+  }
+  .main-5 .card-1 .top img{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(248, 241, 192); */
+   
+  }
+
+
+  .main-5 .card-1 .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(248, 244, 217); */
+    align-items: center;
+    
+   
+  }
+  .main-5 .card-1 .bottom h5{
+   
+    font-size: 15px;
+    color: rgb(76, 76, 76);
+  }
+
+  .main-5 .card-1 .bottom h3{
+   font-size: 20px;
+   margin-top: 2%;
+   
+  }
+  .main-5 .card-1 .bottom p{
+    color: rgb(66, 66, 66);
+    margin-top: 2%;
+    
+   }
+   .main-5 .card-1 .bottom h2{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    
+   }
+ 
+ 
+ 
+ 
+
+
+  .main-5 .card-2{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(160, 152, 95); */
+   
+  }
+
+  .main-5 .card-2 .top{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(248, 241, 192); */
+   
+  }
+  .main-5 .card-2 .top img{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(248, 241, 192); */
+   
+  }
+
+  .main-5 .card-2 .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(248, 244, 217); */
+   
+  }
+  .main-5 .card-2 .bottom h5{
+   
+    font-size: 15px;
+    color: rgb(76, 76, 76);
+  }
+
+  .main-5 .card-2 .bottom h3{
+   font-size: 20px;
+   margin-top: 2%;
+   
+  }
+  .main-5 .card-2 .bottom p{
+    color: rgb(66, 66, 66);
+    margin-top: 2%;
+    
+   }
+   .main-5 .card-2 .bottom h2{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    
+   }
+ 
+
+  .main-5 .card-3{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(160, 152, 95); */
+   
+  }
+  .main-5 .card-3 .top{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(248, 241, 192); */
+   
+  }
+  .main-5 .card-3 .top img{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(248, 241, 192); */
+   
+  }
+
+  .main-5 .card-3 .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(248, 244, 217); */
+   
+  }
+  .main-5 .card-3 .bottom h5{
+   
+    font-size: 15px;
+    color: rgb(76, 76, 76);
+  }
+
+  .main-5 .card-3 .bottom h3{
+   font-size: 20px;
+   margin-top: 2%;
+   
+  }
+  .main-5 .card-3 .bottom p{
+    color: rgb(66, 66, 66);
+    margin-top: 2%;
+    
+   }
+   .main-5 .card-3 .bottom h2{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    
+   }
+
+
+
+   .main-6{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    margin-top: 145%;
+    justify-content: center;
+    align-items: center;
+ }
+ .main-6 .container{
+    width: 70%;
+    height: 70%;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+    display: flex;
+ }
+ .main-6 .container .card-1{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(109, 159, 247); */
+    justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   
+   
+ }
+ .main-6 .container .card-1 h2{
+    color: rgb(225, 221, 221);
+    margin-top: 2%;
+   
+ }
+ .main-6 .container .card-1 p{
+    margin-top: 4%;
+    color: rgb(188, 188, 188);
+   
+ }
+
+ .main-6 .container .card-1 a{
+  
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+    padding: 4%;
+
+ }
+ .main-6 .container .card-2{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(109, 159, 247); */
+   
+ }
+ .main-6 .container .card-2 h2{
+    color: rgb(225, 221, 221);
+    margin-top: 2%;
+}
+.main-6 .container .card-2 p{
+    color: rgb(225, 221, 221);
+    margin-top: 2.5%;
+}
+
+
+ .main-6 .container .card-3{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(109, 159, 247); */
+   
+   }
+   .main-6 .container .card-3 h2{
+    color: rgb(225, 221, 221);
+    margin-top: 2%;
+}
+
+.main-6 .container .card-3 p{
+    color: rgb(225, 221, 221);
+    margin-top: 2.5%;
+}
